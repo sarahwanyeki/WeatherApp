@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(/images/Weather\ bk.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.weather-app {
+  background: rgba(0, 0, 0, 0.8);  /* Black background with 0.8 opacity */
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;  /* Set text color to white */
+  backdrop-filter: blur(3px);
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#location-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-icon {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon i {
+  font-size: 16px;
+}
+
+.search-icon:hover {
+  background-color: #0056b3;
+}
+
+.temp-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-weather {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.temperature{
+  font-size: 50px;
+
+}
+
+.temperature span{
+  font-size: 24px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+
+#weather-icon {
+  width: 80px;
+  height: 80px;
+  
+}

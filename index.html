@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    
+
+    <div class="weather-app">
+      
+      <div class="search-container">
+        <input type="text" id="location-input" placeholder="Nakuru">
+        <button id="search-btn" class="search-icon fas fa-search ">
+        </button>
+        <ul id="autocomplete-list"></ul>
+      </div>
+      <div id="weather-result" class="default-weather">
+        <h2>Weather in Nakuru</h2>
+
+        <div class="temp-icon-container">
+          <img id="weather-icon" src="/images/sun.png" alt="Weather Icon" width="50" height="50">
+          <p class="temperature">26.52 <span>°C</span></p>
+
+        </div>
+        
+        <p id="weather-description">Scattered Clouds</p>
+        <p>Humidity: 88%</p>
+        <p>Wind Speed: 8.23 km/h</p>
+      </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
